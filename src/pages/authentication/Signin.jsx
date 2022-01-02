@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import img from "../../Assets/images/undraw_file_sync_ot38.svg"
 import { Link } from 'react-router-dom';
-import SocialAuth from './SocialAuth';
-import { BaseURL } from '../Global';
+import SocialAuth from "../../components/SocialAuth"
+import { BaseURL } from '../../components/Global';
 import axios from 'axios';
 
 function Signin() {
